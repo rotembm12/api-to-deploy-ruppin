@@ -18,6 +18,11 @@ app.get("/api/rotem", (req, res) => {
     rotem: "noob",
   });
 });
+app.get("/api/rotem/test", (req, res) => {
+  return res.json({
+    rotem: "noob",
+  });
+});
 // app.listen(3030);
 
 module.exports = app;
