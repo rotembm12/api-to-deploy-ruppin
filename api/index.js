@@ -13,6 +13,11 @@ app.get("/api", (req, res) => {
   return res.send("Hello world");
 });
 
+app.get("/api/rotem", (req, res) => {
+  return res.json({
+    rotem: "noob",
+  });
+});
 // app.listen(3030);
 
 module.exports = app;
